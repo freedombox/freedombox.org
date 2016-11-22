@@ -2,20 +2,5 @@ title: FreedomBox, Private Cloud Server
 ---
 body:
 
-FreedomBox is a 100% free software self-hosting web server to deploy
-social applications on small machines. It provides online
-communication tools respecting your privacy and data ownership.
+FreedomBox is your personal server. It couples free software with always-on, inexpensive and power-efficient hardware. Plug it into your home network, set it up and it will start hosting your address-book, calendar or blog right from your living room. With a few clicks in its web interface FreedomBox also runs a privacy defending VPN, ad-blockers and many more apps and services. A web interface acts as the central hub, offering one-click installs and simple configuration of apps and services.
 
-You can use FreedomBox at home to replace services provided by
-third-parties mining your life and using your content. Thanks to a
-very friendly interface, you will be able to deploy on demand
-applications focusing on confidentiality such as file sharing, shared
-calendaring, instant messaging, secure voice conference calling, blog
-and wiki.
-
-FreedomBox is a free software stack, a subset of the Debian universal
-operating system, that can be installed in many flavors of inexpensive
-and power-efficient Open Source hardware, called single board
-computers (SBC). Once installed on the hardware of your choice, the
-simplicity of setting up and operating a FreedomBox is similar to that
-of a smart phone.
