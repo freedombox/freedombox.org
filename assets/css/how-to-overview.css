@@ -1,0 +1,42 @@
+header a.logo {
+    height: 13rem;
+}
+.how-to-list {
+    max-width: 64rem;
+    margin: 0 auto;
+    padding: 0 12.8rem 0 24rem;
+}
+
+.title {
+    max-width: 64rem;
+    margin: 3.2rem auto 6.4rem;
+    padding-left: 3.2rem;
+    font-style: italic;
+}
+
+    .title h2 {
+        color: rgb(64,196,75);
+        font-weight: bold;
+        font-size: 3rem;
+        position: relative;
+    }
+    .title h2:before {
+        position: absolute;
+        content: " ";
+        width: 6.4rem;
+        height: 6.4rem;
+        left: -9.6rem;
+        top: 0rem;
+        background: url("../images/icons.png") no-repeat -16rem 0;
+        background-size: auto 6.4rem;
+    }
+
+.title em {
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(64,196,75);
+}
+
+.title.feature1 h2:before {background-position: 0rem 0;}
+.title.feature2 h2:before {background-position: -8rem 0;}
+.title.feature3 h2:before {background-position: -16rem 0;}

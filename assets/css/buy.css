@@ -1,0 +1,70 @@
+header a.logo {
+    height: 13rem;
+}
+.buy {
+    max-width: 64rem;
+    margin: 3.2rem auto;
+}
+
+    .buy h2 {
+        color: rgb(64,196,75);
+        font-weight: bold;
+        font-style: italic;
+        font-size: 3rem;
+        position: relative;
+        margin-bottom: 6.4rem;
+    }
+
+.buy h3 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.recommended {
+    border: 0.1rem solid rgb(64,196,75);
+    border-radius: 0.6rem;
+    margin-bottom: 12.8rem;
+}
+
+    .recommended h3 {
+        background: white;
+        margin: -1.6rem 0 0 -0.5rem;
+        display: inline;
+        position: absolute;
+        padding: 0 1rem 0 0;
+    }
+
+    .recommended img {
+        float: right;
+        border-radius: 0.5rem;
+    }
+    .recommended ul {
+        font-style: italic;
+        list-style-type: square;
+        color: rgb(64,196,75);
+        margin-top: 8rem;
+    }
+    .recommended li {
+        list-style-type: none;
+    }
+    .recommended p {
+        padding: 3.2rem;
+    }
+    .recommended .bluebutton {
+        margin: 0 auto;
+        display: table;
+        border: 0.5rem solid white;
+        margin-bottom: -3.2rem;
+        height: 2.2rem;
+        padding: 0 inherit;
+    }
+
+.hardware-list div {
+    float: left;
+    width: 50%;
+}
+
+.lastlink {
+    clear: both;
+}

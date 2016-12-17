@@ -1,0 +1,52 @@
+header a.logo {
+    height: 13rem;
+}
+
+.version {
+    position: absolute;
+    width: 25.6rem;
+    text-align: center;
+    line-height: 1;
+    top: 15rem;
+}
+    .version h1 {
+        font-size: 10rem;
+        font-style: italic;
+        font-weight: bold;
+        /*color: rgb(45,144,233);*/
+    }
+    .version date {
+        display: block;
+        /*color: rgb(45,144,233);*/
+        padding: 1rem 0 2rem;
+        font-weight: bold;
+        font-size: 1.8rem;
+    }
+
+table.img {
+    width: 64rem;
+    margin: 3.2rem auto 18rem;
+    text-align: left;
+}
+
+    table.img tr:nth-child(odd){
+        background: #f3f8fd;
+    }
+    table.img td{
+        padding: 3.2rem;
+    }
+    table.img td:nth-child(even){
+        text-align: center;
+    }
+    table.img h2 {
+        font-style: italic;
+        font-weight: bold;
+        font-size: 3rem;
+    }
+    table.img a em {
+        font-size: 1.6rem;
+    }
+    table.img a.signature {
+        display: block;
+        text-align: center;
+    }

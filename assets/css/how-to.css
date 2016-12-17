@@ -1,0 +1,134 @@
+header a.logo {
+    height: 13rem;
+}
+.how-to-text {
+    max-width: 64rem;
+    margin: 0 auto;
+}
+
+.title {
+    max-width: 65rem;
+    margin: 0 auto;
+    margin-top: 3.2rem;
+    font-style: italic;
+}
+
+    .title h2 {
+        color: rgb(64,196,75);
+        font-weight: bold;
+        font-size: 3rem;
+        padding: 0 0 1rem;
+    }
+    .title h2:before {
+        content: " ";
+        width: 12.8rem;
+        height: 12.8rem;
+        left: 6rem;
+        top: 9.6rem;
+        position: absolute;
+        background: url("../images/icons.png") no-repeat -16rem 0;
+        background-size: auto 12.8rem;
+    }
+
+    .title a {
+        font-size: 2.5rem;
+    }
+
+.boxes {
+    overflow: visible;
+    width: auto;
+    left: 0%;
+}
+
+.box {
+    position: absolute;
+}
+
+    .box .graybox {
+        position: relative;
+        left: 5.2rem;
+        top: 8rem;
+        width: 17.7rem;
+        height: 20.4rem;
+        background: url("../images/graybox.png") no-repeat 0 -14.8rem;
+    }
+
+    .box .graybox:before { /*long line*/
+        content: " ";
+        position: absolute;
+        height: 0.5rem;
+        width: 200rem;
+        right: 95%;
+        top: -53.5rem;
+        transform: skewY(30deg); /* Standard syntax */
+        background: rgb(122,189,255);
+        z-index: -1;
+        opacity: 1;
+    }
+
+    .box .graybox:after { /*blue glow*/
+        content: " ";
+        position: absolute;
+        width: 17.7rem;
+        height: 14rem;
+        top: -9rem;
+        background: url("../images/graybox.png") no-repeat 0 0rem;
+        -webkit-animation-name: fadein;
+        -webkit-animation-duration: 5s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-direction: alternate;
+        -webkit-animation-timing-function: ease-in-out;
+        -moz-animation-name: fadein;
+        -moz-animation-duration: 2.7s;
+        -moz-animation-iteration-count: infinite;
+        -moz-animation-direction: alternate;
+        -moz-animation-timing-function: ease-in-out;
+    }
+
+.description {
+    top: 4rem;
+    left: -2rem;
+    max-width: 45rem;
+    margin: 0 auto 6rem auto;
+    position: relative;
+}
+    .description p {
+        position: relative;
+        padding: 1rem 0 1rem 1.6rem;
+        line-height: 1.25;
+        font-style: italic;
+        color: rgb(64,196,75);
+        background: rgb(203,239,206);
+        background: -moz-linear-gradient(150deg, rgba(203,239,206,1) 0%, rgba(255,255,255,1) 30%);
+        background: -webkit-linear-gradient(150deg, rgba(203,239,206,1) 0%,rgba(255,255,255,1) 30%);
+        background: linear-gradient(150deg, rgba(203,239,206,1) 0%,rgba(255,255,255,1) 30%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbefce', endColorstr='#ffffff',GradientType=1 );
+    }
+
+    .description p:before {  /*triangle of speech bubble*/
+        content:" ";
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: 4rem;
+        top: -3.2rem;
+        border-bottom: 3.2rem solid transparent;
+        border-top: 3.2rem solid transparent;
+        border-left: 3.2rem solid #d6f3d8;
+        z-index: -1;
+    }
+
+@-moz-keyframes fadein {
+    0% {opacity: 0.3;}
+    100% {opacity: 1;}
+}
+
+@-webkit-keyframes fadein {
+    0% {opacity: 0.3;}
+    100% {opacity: 1;}
+}
+
+@-keyframes fadein {
+    0% {opacity: 0.3;}
+    100% {opacity: 1;}
+}

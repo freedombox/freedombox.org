@@ -1,15 +1,74 @@
 <!doctype html>
-<meta charset="utf-8">
-<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
-<title>{% block title %}FreedomBox{% endblock %} — freedombox.org</title>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>{% block title %}FreedomBox{% endblock %} - freedombox.org</title>
+
+  <link rel="stylesheet" href="{{ '/css/reset.css'|asseturl }}">
+  <link rel="stylesheet" href="{{ '/css/latolatinfonts.css'|asseturl }}">
+  <link rel="stylesheet" href="{{ '/css/main.css'|asseturl }}">
+  <link rel="stylesheet" href="{{ '/css/animated-logo.css'|asseturl }}">
+
+  <link rel="stylesheet" href="{{ '/css/landing.css'|asseturl }}">
+</head>
+
 <body>
   <header>
-    <h1>FreedomBox</h1>
+    <div class="container">
+      <a href="{{ '/'|url }}" class="logo"></a>
+      <a href="{{ '/'|url }}">
+        <div id="butterfly">
+          <div id="wings"></div>
+          <div id="wingtop"></div>
+        </div>
+      </a>
+    </div>
   </header>
-  <div class="page">
-    {% block body %}{% endblock %}
+
+  <div class="main">
+    <div class="container">
+
+      <div class="buttons">
+        <a href="https://wiki.debian.org/FreedomBox/Download" class="download">
+	  download</a>
+      </div>
+
+      <div class="description">
+	<p>{% block body %}{% endblock %}</p>
+      </div>
+
+      <div class="background-box"></div>
+
+    </div>
   </div>
+
   <footer>
-    &copy; Copyright 2016 by freedombox.org Authors.
+    <div class="container">
+      <div class="menu">
+        <ul>
+          <li><a href="https://wiki.debian.org/FreedomBox/QuestionsAndAnswers">
+	      FAQ</a>
+          <li><a href="https://wiki.debian.org/FreedomBox/Manual">
+	      Documentation</a>
+          <li><a href="https://wiki.debian.org/FreedomBox">Wiki</a>
+        </ul>
+        <ul>
+          <li><a href="https://wiki.debian.org/FreedomBox/Introduction">
+	      About us</a>
+          <li><a href="https://wiki.debian.org/FreedomBox/Support">
+	      Contact</a>
+          <li><a href="https://freedomboxfoundation.org/">
+	      FreedomBox Foundation</a>
+        </ul>
+        <ul>
+          <li><a href="https://github.com/freedombox/">Source Code</a>
+          <li><a href="https://wiki.debian.org/FreedomBox/Contribute">
+	      Participate</a>
+          <li><a href="https://freedomboxfoundation.org/donate/">Donate</a>
+        </ul>
+      </div>
+    </div>
   </footer>
 </body>
+</html>

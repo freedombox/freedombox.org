@@ -1,0 +1,66 @@
+header a.logo {
+    height: 13rem;
+}
+
+.downloadlist {
+    max-width: 64rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3.2rem;
+    font-style: italic;
+}
+.downloadlist a {
+    color: rgba(100,100,100,0.2);
+    text-decoration: none;
+    display: block;
+    border-radius: 0.5rem;
+}
+
+.downloadlist em {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 4rem;
+    width: 33%;
+    padding: 2rem;
+    color: rgba(100,100,100,1);
+}
+.downloadlist a date {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.5rem;
+    width: 33%;
+    font-style: normal;
+}
+.downloadlist a:nth-of-type(1) em {
+    font-size: 8rem;
+    margin: 2rem 0;
+}
+
+.downloadlist a:nth-of-type(2) em {
+    font-size: 7rem;
+    margin: 1.5rem 0;
+}
+
+.downloadlist a:nth-of-type(3) em {
+    font-size: 5rem;
+    margin: 1rem 0;
+}
+
+.nightly {
+    display: block;
+    text-align:center;
+    font-size: 3rem;
+    padding: 3.2rem;
+    font-style: italic;
+}
+.downloadlist a:hover,
+.downloadlist a:first-of-type {
+    color: rgb(22,115,207);
+    background: #f3f8fd;
+}
+.downloadlist a:first-of-type:hover em,
+.downloadlist a:hover,
+.downloadlist a:hover em,
+.downloadlist a:first-of-type em {
+    color: rgb(22,115,207);
+}
