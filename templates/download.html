@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block page_css %}
+  <link rel="stylesheet" href="{{ '/css/download-latest.css'|asseturl }}">
+{% endblock %}
+
+{% block heading %}
+  <h1 class="headlinegroup">how to <em>download FreedomBox</em></h1>
+{% endblock %}
+
+{% block menu %}
+  <div class="version">
+    <h1>{{ this.release_name }}</h1>
+    <date>{{ this.release_date }}</date>
+    <a href="http://ftp.freedombox.org/pub/freedombox/"
+       class="greenbutton">all versions</a>
+  </div>
+{% endblock %}
+
+{% block content %}
+
+  <table class="img">
+    {% for image_hardware_target in this.images_hardware_targets %}
+    <tr>
+      <td>
+        <h2>{{ image_hardware_target }}</h2>
+        {{ this.images_tags[loop.index-1] }}
+      </td>
+      <td>
+        <a href="http://ftp.freedombox.org/pub/freedombox/0.9/{{ this.images_filenames[loop.index-1] }}" class="bluebutton">
+	  testing img <em>{{ this.images_sizes[loop.index-1] }}</em></a>
+        <a href="http://ftp.freedombox.org/pub/freedombox/0.9/{{ this.images_signatures_filenames[loop.index-1] }}" class="signature">signature</a>
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  <div class="lastlink">
+  <a href="https://wiki.debian.org/FreedomBox/Download"
+     class="greenbutton">how to verify and install</a>
+  </div>
+
+{% endblock %}

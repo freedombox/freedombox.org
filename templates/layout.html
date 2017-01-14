@@ -3,14 +3,16 @@
 <head>
   <meta charset="utf-8">
 
-  <title>{% block title %}FreedomBox{% endblock %} - freedombox.org</title>
+  <title>{% block title %}{{ this.title }}{% endblock %} - freedombox.org</title>
 
   <link rel="stylesheet" href="{{ '/css/reset.css'|asseturl }}">
   <link rel="stylesheet" href="{{ '/css/latolatinfonts.css'|asseturl }}">
   <link rel="stylesheet" href="{{ '/css/main.css'|asseturl }}">
   <link rel="stylesheet" href="{{ '/css/animated-logo.css'|asseturl }}">
 
-  <link rel="stylesheet" href="{{ '/css/landing.css'|asseturl }}">
+  {% block page_css %}
+    <link rel="stylesheet" href="{{ '/css/landing.css'|asseturl }}">
+  {% endblock %}
 </head>
 
 <body>
@@ -29,14 +31,20 @@
   <div class="main">
     <div class="container">
 
-      <div class="buttons">
-        <a href="https://wiki.debian.org/FreedomBox/Download" class="download">
-	  download</a>
-      </div>
+      {% block heading %}
+      {% endblock %}
 
-      <div class="description">
-	<p>{% block body %}{% endblock %}</p>
+      {% block menu %}
+      <div class="buttons">
+        <a href="{{ '/download'|url }}" class="download">download</a>
       </div>
+      {% endblock %}
+
+      {% block content %}
+      <div class="description">
+	<p>{{ this.body }}</p>
+      </div>
+      {% endblock %}
 
       <div class="background-box"></div>
 
