@@ -1,0 +1,15 @@
+<tr>
+  <td>
+    <h2>{{ this.hardware_target }}</h2>
+    {% for tag in this.tags %}
+      {{ tag }}
+    {% endfor %}
+  </td>
+  <td>
+    <a href="http://ftp.freedombox.org/pub/freedombox/0.9/{{ this.filename }}"
+       class="bluebutton">
+      testing img <em>({{ this.size }} MiB)</em></a>
+    <a href="http://ftp.freedombox.org/pub/freedombox/0.9/{{ this.signature_filename }}"
+       class="signature">signature</a>
+  </td>
+</tr>
