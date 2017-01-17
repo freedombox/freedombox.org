@@ -10,8 +10,10 @@
 
 {% block menu %}
   <div class="version">
-    <h1>{{ this.release_name }}</h1>
-    <date>{{ this.release_date }}</date>
+    <h1>{{ this.release_version }}</h1>
+    <time datetime="{{ this.release_date }}">
+      {{ this.release_date }}
+    </time>
     <a href="http://ftp.freedombox.org/pub/freedombox/"
        class="greenbutton">all versions</a>
   </div>

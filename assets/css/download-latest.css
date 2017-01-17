@@ -15,7 +15,7 @@ header a.logo {
         font-weight: bold;
         /*color: rgb(45,144,233);*/
     }
-    .version date {
+    .version time {
         display: block;
         /*color: rgb(45,144,233);*/
         padding: 1rem 0 2rem;
