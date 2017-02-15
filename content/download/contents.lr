@@ -2,7 +2,7 @@ title: FreedomBox Download
 ---
 release_version: testing
 ---
-release_date: 2016-07-03
+release_date: 2017-02-02
 ---
 images:
 
@@ -11,237 +11,237 @@ hardware_target: Cubietruck
 ----
 tags:
 
-2016-07-03
+2017-02-02
 armhf
 testing
 free
 ----
-filename: freedombox-testing-free_0.9_cubietruck-armhf.img.xz
+filename: freedombox-testing-free_2017-02-02_cubietruck-armhf.img.xz
 ----
-signature_filename: freedombox-testing-free_0.9_cubietruck-armhf.img.xz.sig
+signature_filename: freedombox-testing-free_2017-02-02_cubietruck-armhf.img.xz.sig
 ----
-size: 242
+size: 254
 
 #### download_image ####
 hardware_target: Cubieboard2
 ----
 tags:
 
-2016-07-03
+2017-02-02
 armhf
 testing
 free
 ----
-filename: freedombox-testing-free_0.9_cubieboard2-armhf.img.xz
+filename: freedombox-testing-free_2017-02-02_cubieboard2-armhf.img.xz
 ----
-signature_filename: freedombox-testing-free_0.9_cubieboard2-armhf.img.xz.sig
+signature_filename: freedombox-testing-free_2017-02-02_cubieboard2-armhf.img.xz.sig
 ----
-size: 242
+size: 255
 
 #### download_image ####
 hardware_target: BeagleBone Black
 ----
 tags:
 
-2016-07-03
+2017-02-02
 armhf
 testing
 free
 ----
-filename: freedombox-testing-free_0.9_beaglebone-armhf.img.xz
+filename: freedombox-testing-free_2017-02-02_beaglebone-armhf.img.xz
 ----
-signature_filename: freedombox-testing-free_0.9_beaglebone-armhf.img.xz.sig
+signature_filename: freedombox-testing-free_2017-02-02_beaglebone-armhf.img.xz.sig
 ----
-size: 241
+size: 255
 
 #### download_image ####
 hardware_target: A20 OLinuXino Lime
 ----
 tags:
 
-2016-07-03
+2017-02-02
 armhf
 testing
 free
 ----
-filename: freedombox-testing-free_0.9_a20-olinuxino-lime-armhf.img.xz
+filename: freedombox-testing-free_2017-02-02_a20-olinuxino-lime-armhf.img.xz
 ----
-signature_filename: freedombox-testing-free_0.9_a20-olinuxino-lime-armhf.img.xz.sig
+signature_filename: freedombox-testing-free_2017-02-02_a20-olinuxino-lime-armhf.img.xz.sig
 ----
-size: 242
+size: 255
 
 #### download_image ####
 hardware_target: A20 OLinuXino Lime2
 ----
 tags:
 
-2016-07-03
+2017-02-02
 armhf
 testing
 free
 ----
-filename: freedombox-testing-free_0.9_a20-olinuxino-lime2-armhf.img.xz
+filename: freedombox-testing-free_2017-02-02_a20-olinuxino-lime2-armhf.img.xz
 ----
-signature_filename: freedombox-testing-free_0.9_a20-olinuxino-lime2-armhf.img.xz.sig
+signature_filename: freedombox-testing-free_2017-02-02_a20-olinuxino-lime2-armhf.img.xz.sig
 ----
-size: 242
+size: 257
 
 #### download_image ####
 hardware_target: A20 OLinuXino MICRO
 ----
 tags:
 
-2016-07-03
+2017-02-02
 armhf
 testing
 free
 ----
-filename: freedombox-testing-free_0.9_a20-olinuxino-micro-armhf.img.xz
+filename: freedombox-testing-free_2017-02-02_a20-olinuxino-micro-armhf.img.xz
 ----
-signature_filename: freedombox-testing-free_0.9_a20-olinuxino-micro-armhf.img.xz.sig
+signature_filename: freedombox-testing-free_2017-02-02_a20-olinuxino-micro-armhf.img.xz.sig
 ----
-size: 241
+size: 258
 
 #### download_image ####
 hardware_target: DreamPlug
 ----
 tags:
 
-2016-07-03
+2017-02-02
 armel
 testing
 free
 ----
-filename: freedombox-testing-free_0.9_dreamplug-armel.img.xz
+filename: freedombox-testing-free_2017-02-02_dreamplug-armel.img.xz
 ----
-signature_filename: freedombox-testing-free_0.9_dreamplug-armel.img.xz.sig
+signature_filename: freedombox-testing-free_2017-02-02_dreamplug-armel.img.xz.sig
 ----
-size: 221
+size: 229
 
 #### download_image ####
 hardware_target: Raspberry Pi
 ----
 tags:
 
-2016-07-03
+2017-02-02
 armel
 testing
 nonfree
 ----
-filename: freedombox-testing-nonfree_0.9_raspberry-armel.img.xz
+filename: freedombox-testing-nonfree_2017-02-02_raspberry-armel.img.xz
 ----
-signature_filename: freedombox-testing-nonfree_0.9_raspberry-armel.img.xz.sig
+signature_filename: freedombox-testing-nonfree_2017-02-02_raspberry-armel.img.xz.sig
 ----
-size: 287
+size: 380
 
 #### download_image ####
 hardware_target: Raspberry Pi 2/3
 ----
 tags:
 
-2016-07-03
+2017-02-02
 armhf
 testing
 nonfree
 ----
-filename: freedombox-testing-nonfree_0.9_raspberry2-armhf.img.xz
+filename: freedombox-testing-nonfree_2017-02-02_raspberry2-armhf.img.xz
 ----
-signature_filename: freedombox-testing-nonfree_0.9_raspberry2-armhf.img.xz.sig
+signature_filename: freedombox-testing-nonfree_2017-02-02_raspberry2-armhf.img.xz.sig
 ----
-size: 376
+size: 329
 
 #### download_image ####
 hardware_target: 64-bit x86 (amd64)
 ----
 tags:
 
-2016-07-02
+2017-02-02
 amd64
 testing
 free
 ----
-filename: freedombox-testing-free_0.9_all-amd64.img.xz
+filename: freedombox-testing-free_2017-02-02_all-amd64.img.xz
 ----
-signature_filename: freedombox-testing-free_0.9_all-amd64.img.xz.sig
+signature_filename: freedombox-testing-free_2017-02-02_all-amd64.img.xz.sig
 ----
-size: 246
+size: 247
 
 #### download_image ####
 hardware_target: 32-bit x86 (i386)
 ----
 tags:
 
-2016-07-02
+2017-02-02
 i386
 testing
 free
 ----
-filename: freedombox-testing-free_0.9_all-i386.img.xz
+filename: freedombox-testing-free_2017-02-02_all-i386.img.xz
 ----
-signature_filename: freedombox-testing-free_0.9_all-i386.img.xz.sig
+signature_filename: freedombox-testing-free_2017-02-02_all-i386.img.xz.sig
 ----
-size: 245
+size: 250
 
 #### download_image ####
 hardware_target: Qemu 64-bit
 ----
 tags:
 
-2016-07-02
+2017-02-02
 amd64
 testing
 free
 ----
-filename: freedombox-testing-free_0.9_all-amd64.qcow2.xz
+filename: freedombox-testing-free_2017-02-02_all-amd64.qcow2.xz
 ----
-signature_filename: freedombox-testing-free_0.9_all-amd64.qcow2.xz.sig
+signature_filename: freedombox-testing-free_2017-02-02_all-amd64.qcow2.xz.sig
 ----
-size: 243
+size: 245
 
 #### download_image ####
 hardware_target: Qemu 32-bit
 ----
 tags:
 
-2016-07-02
+2017-02-02
 i386
 testing
 free
 ----
-filename: freedombox-testing-free_0.9_all-i386.qcow2.xz
+filename: freedombox-testing-free_2017-02-02_all-i386.qcow2.xz
 ----
-signature_filename: freedombox-testing-free_0.9_all-i386.qcow2.xz.sig
+signature_filename: freedombox-testing-free_2017-02-02_all-i386.qcow2.xz.sig
 ----
-size: 243
+size: 247
 
 #### download_image ####
 hardware_target: VirtualBox 64-bit
 ----
 tags:
 
-2016-07-02
+2017-02-02
 amd64
 testing
 free
 ----
-filename: freedombox-testing-free_0.9_all-amd64.vdi.xz
+filename: freedombox-testing-free_2017-02-02_all-amd64.vdi.xz
 ----
-signature_filename: freedombox-testing-free_0.9_all-amd64.vdi.xz.sig
+signature_filename: freedombox-testing-free_2017-02-02_all-amd64.vdi.xz.sig
 ----
-size: 243
+size: 246
 
 #### download_image ####
 hardware_target: VirtualBox 32-bit
 ----
 tags:
 
-2016-07-02
+2017-02-02
 i386
 testing
 free
 ----
-filename: freedombox-testing-free_0.9_all-i386.vdi.xz
+filename: freedombox-testing-free_2017-02-02_all-i386.vdi.xz
 ----
-signature_filename: freedombox-testing-free_0.9_all-i386.vdi.xz.sig
+signature_filename: freedombox-testing-free_2017-02-02_all-i386.vdi.xz.sig
 ----
-size: 243
+size: 246
