@@ -1,247 +1,247 @@
 title: FreedomBox Download
 ---
-release_version: testing
+release_version: stable
 ---
-release_date: 2017-02-02
+release_date: 2017.06
 ---
 images:
 
 #### download_image ####
-hardware_target: Cubietruck
+hardware_target: A20 OLinuXino LIME
 ----
 tags:
 
-2017-02-02
+2017-06-19
 armhf
-testing
+stable
 free
 ----
-filename: freedombox-testing-free_2017-02-02_cubietruck-armhf.img.xz
+filename: freedombox-stable-free_2017-06-18_a20-olinuxino-lime-armhf.img.xz
 ----
-signature_filename: freedombox-testing-free_2017-02-02_cubietruck-armhf.img.xz.sig
+signature_filename: freedombox-stable-free_2017-06-18_a20-olinuxino-lime-armhf.img.xz.sig
 ----
-size: 254
+size: 276
 
 #### download_image ####
-hardware_target: Cubieboard2
+hardware_target: A20 OLinuXino LIME2
 ----
 tags:
 
-2017-02-02
+2017-06-19
 armhf
-testing
+stable
 free
 ----
-filename: freedombox-testing-free_2017-02-02_cubieboard2-armhf.img.xz
+filename: freedombox-stable-free_2017-06-18_a20-olinuxino-lime2-armhf.img.xz
 ----
-signature_filename: freedombox-testing-free_2017-02-02_cubieboard2-armhf.img.xz.sig
+signature_filename: freedombox-stable-free_2017-06-18_a20-olinuxino-lime2-armhf.img.xz.sig
 ----
-size: 255
-
-#### download_image ####
-hardware_target: BeagleBone Black
-----
-tags:
-
-2017-02-02
-armhf
-testing
-free
-----
-filename: freedombox-testing-free_2017-02-02_beaglebone-armhf.img.xz
-----
-signature_filename: freedombox-testing-free_2017-02-02_beaglebone-armhf.img.xz.sig
-----
-size: 255
-
-#### download_image ####
-hardware_target: A20 OLinuXino Lime
-----
-tags:
-
-2017-02-02
-armhf
-testing
-free
-----
-filename: freedombox-testing-free_2017-02-02_a20-olinuxino-lime-armhf.img.xz
-----
-signature_filename: freedombox-testing-free_2017-02-02_a20-olinuxino-lime-armhf.img.xz.sig
-----
-size: 255
-
-#### download_image ####
-hardware_target: A20 OLinuXino Lime2
-----
-tags:
-
-2017-02-02
-armhf
-testing
-free
-----
-filename: freedombox-testing-free_2017-02-02_a20-olinuxino-lime2-armhf.img.xz
-----
-signature_filename: freedombox-testing-free_2017-02-02_a20-olinuxino-lime2-armhf.img.xz.sig
-----
-size: 257
+size: 272
 
 #### download_image ####
 hardware_target: A20 OLinuXino MICRO
 ----
 tags:
 
-2017-02-02
+2017-06-19
 armhf
-testing
+stable
 free
 ----
-filename: freedombox-testing-free_2017-02-02_a20-olinuxino-micro-armhf.img.xz
+filename: freedombox-stable-free_2017-06-18_a20-olinuxino-micro-armhf.img.xz
 ----
-signature_filename: freedombox-testing-free_2017-02-02_a20-olinuxino-micro-armhf.img.xz.sig
+signature_filename: freedombox-stable-free_2017-06-18_a20-olinuxino-micro-armhf.img.xz.sig
 ----
-size: 258
-
-#### download_image ####
-hardware_target: DreamPlug
-----
-tags:
-
-2017-02-02
-armel
-testing
-free
-----
-filename: freedombox-testing-free_2017-02-02_dreamplug-armel.img.xz
-----
-signature_filename: freedombox-testing-free_2017-02-02_dreamplug-armel.img.xz.sig
-----
-size: 229
-
-#### download_image ####
-hardware_target: Raspberry Pi
-----
-tags:
-
-2017-02-02
-armel
-testing
-nonfree
-----
-filename: freedombox-testing-nonfree_2017-02-02_raspberry-armel.img.xz
-----
-signature_filename: freedombox-testing-nonfree_2017-02-02_raspberry-armel.img.xz.sig
-----
-size: 380
-
-#### download_image ####
-hardware_target: Raspberry Pi 2/3
-----
-tags:
-
-2017-02-02
-armhf
-testing
-nonfree
-----
-filename: freedombox-testing-nonfree_2017-02-02_raspberry2-armhf.img.xz
-----
-signature_filename: freedombox-testing-nonfree_2017-02-02_raspberry2-armhf.img.xz.sig
-----
-size: 329
+size: 272
 
 #### download_image ####
 hardware_target: 64-bit x86 (amd64)
 ----
 tags:
 
-2017-02-02
+2017-06-19
 amd64
-testing
+stable
 free
 ----
-filename: freedombox-testing-free_2017-02-02_all-amd64.img.xz
+filename: freedombox-stable-free_2017-06-18_all-amd64.img.xz
 ----
-signature_filename: freedombox-testing-free_2017-02-02_all-amd64.img.xz.sig
+signature_filename: freedombox-stable-free_2017-06-18_all-amd64.img.xz.sig
 ----
-size: 247
-
-#### download_image ####
-hardware_target: 32-bit x86 (i386)
-----
-tags:
-
-2017-02-02
-i386
-testing
-free
-----
-filename: freedombox-testing-free_2017-02-02_all-i386.img.xz
-----
-signature_filename: freedombox-testing-free_2017-02-02_all-i386.img.xz.sig
-----
-size: 250
+size: 260
 
 #### download_image ####
 hardware_target: Qemu 64-bit
 ----
 tags:
 
-2017-02-02
+2017-06-19
 amd64
-testing
+stable
 free
 ----
-filename: freedombox-testing-free_2017-02-02_all-amd64.qcow2.xz
+filename: freedombox-stable-free_2017-06-18_all-amd64.qcow2.xz
 ----
-signature_filename: freedombox-testing-free_2017-02-02_all-amd64.qcow2.xz.sig
+signature_filename: freedombox-stable-free_2017-06-18_all-amd64.qcow2.xz.sig
 ----
-size: 245
-
-#### download_image ####
-hardware_target: Qemu 32-bit
-----
-tags:
-
-2017-02-02
-i386
-testing
-free
-----
-filename: freedombox-testing-free_2017-02-02_all-i386.qcow2.xz
-----
-signature_filename: freedombox-testing-free_2017-02-02_all-i386.qcow2.xz.sig
-----
-size: 247
+size: 258
 
 #### download_image ####
 hardware_target: VirtualBox 64-bit
 ----
 tags:
 
-2017-02-02
+2017-06-20
 amd64
-testing
+stable
 free
 ----
-filename: freedombox-testing-free_2017-02-02_all-amd64.vdi.xz
+filename: freedombox-stable-free_2017-06-18_all-amd64.vdi.xz
 ----
-signature_filename: freedombox-testing-free_2017-02-02_all-amd64.vdi.xz.sig
+signature_filename: freedombox-stable-free_2017-06-18_all-amd64.vdi.xz.sig
 ----
-size: 246
+size: 258
+
+#### download_image ####
+hardware_target: 32-bit x86 (i386)
+----
+tags:
+
+2017-06-20
+i386
+stable
+free
+----
+filename: freedombox-stable-free_2017-06-18_all-i386.img.xz
+----
+signature_filename: freedombox-stable-free_2017-06-18_all-i386.img.xz.sig
+----
+size: 260
+
+#### download_image ####
+hardware_target: Qemu 32-bit
+----
+tags:
+
+2017-06-20
+i386
+stable
+free
+----
+filename: freedombox-stable-free_2017-06-18_all-i386.qcow2.xz
+----
+signature_filename: freedombox-stable-free_2017-06-18_all-i386.qcow2.xz.sig
+----
+size: 259
 
 #### download_image ####
 hardware_target: VirtualBox 32-bit
 ----
 tags:
 
-2017-02-02
+2017-06-20
 i386
-testing
+stable
 free
 ----
-filename: freedombox-testing-free_2017-02-02_all-i386.vdi.xz
+filename: freedombox-stable-free_2017-06-18_all-i386.vdi.xz
 ----
-signature_filename: freedombox-testing-free_2017-02-02_all-i386.vdi.xz.sig
+signature_filename: freedombox-stable-free_2017-06-18_all-i386.vdi.xz.sig
 ----
-size: 246
+size: 260
+
+#### download_image ####
+hardware_target: BeagleBone Black
+----
+tags:
+
+2017-06-20
+armhf
+stable
+free
+----
+filename: freedombox-stable-free_2017-06-18_beaglebone-armhf.img.xz
+----
+signature_filename: freedombox-stable-free_2017-06-18_beaglebone-armhf.img.xz.sig
+----
+size: 274
+
+#### download_image ####
+hardware_target: Cubieboard2
+----
+tags:
+
+2017-06-20
+armhf
+stable
+free
+----
+filename: freedombox-stable-free_2017-06-18_cubieboard2-armhf.img.xz
+----
+signature_filename: freedombox-stable-free_2017-06-18_cubieboard2-armhf.img.xz.sig
+----
+size: 272
+
+#### download_image ####
+hardware_target: Cubietruck
+----
+tags:
+
+2017-06-20
+armhf
+stable
+free
+----
+filename: freedombox-stable-free_2017-06-18_cubietruck-armhf.img.xz
+----
+signature_filename: freedombox-stable-free_2017-06-18_cubietruck-armhf.img.xz.sig
+----
+size: 271
+
+#### download_image ####
+hardware_target: DreamPlug
+----
+tags:
+
+2017-06-20
+armel
+stable
+free
+----
+filename: freedombox-stable-free_2017-06-18_dreamplug-armel.img.xz
+----
+signature_filename: freedombox-stable-free_2017-06-18_dreamplug-armel.img.xz.sig
+----
+size: 247
+
+#### download_image ####
+hardware_target: pcDuino3
+----
+tags:
+
+2017-06-20
+armhf
+stable
+free
+----
+filename: freedombox-stable-free_2017-06-18_pcduino3-armhf.img.xz
+----
+signature_filename: freedombox-stable-free_2017-06-18_pcduino3-armhf.img.xz.sig
+----
+size: 275
+
+#### download_image ####
+hardware_target: Raspberry Pi 2
+----
+tags:
+
+2017-07-18
+armhf
+stable
+nonfree
+----
+filename: freedombox-stable-nonfree_2017-07-17_raspberry2-armhf.img.xz
+----
+signature_filename: freedombox-stable-nonfree_2017-07-17_raspberry2-armhf.img.xz.sig
+----
+size: 271
