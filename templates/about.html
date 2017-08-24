@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block page_css %}
+  <link rel="stylesheet" href="{{ '/css/about.css'|asseturl }}">
+{% endblock %}
+
+{% block menu %}
+{% endblock %}
+
+{% block content %}
+<div class="about">
+  <p>{{ this.body }}</p>
+</div>
+{% endblock %}
+
+{% block bottom_menu %}
+  <div class="buttons">
+    <a href="{{ '/download'|url }}" class="bigbluebutton">download</a>
+  </div>
+{% endblock %}
+
+{% block background %}
+{% endblock %}
