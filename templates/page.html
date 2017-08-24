@@ -1,7 +1,19 @@
 {% extends "layout.html" %}
 
+{% block menu %}
+  <div class="buttons">
+    <a href="{{ '/download'|url }}" class="bigbluebutton">download</a>
+  </div>
+{% endblock %}
+
 {% block content %}
   <div class="description">
     {{ this.body }}
+  </div>
+{% endblock %}
+
+{% block bottom_menu %}
+  <div class="description">
+    <a href="{{ '/about'|url }}" class="greenbutton">more about our project</a>
   </div>
 {% endblock %}
